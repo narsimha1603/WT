@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html>
+<head>
+  <title>Object Destructuring</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 30px;
+      background: #f0f8ff;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+      max-width: 400px;
+    }
+    .result {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+<h2>Student Info (Object Destructuring)</h2>
+<div class="box" id="output"></div>
+<script>
+  const student = {
+    name: "Aarav",
+    age: 20,
+    course: "B.Tech",
+    city: "Hyderabad"
+  };
+  const { name, age, course, city } = student;
+  document.getElementById("output").innerHTML = `
+    <div class="result"><strong>Name:</strong> ${name}</div>
+    <div class="result"><strong>Age:</strong> ${age}</div>
+    <div class="result"><strong>Course:</strong> ${course}</div>
+    <div class="result"><strong>City:</strong> ${city}</div>
+  `;
+</script>
+</body>
+</html>
