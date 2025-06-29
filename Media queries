@@ -1,42 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css responsive web design</title>
-   <style>
- .box{
-        text-align:center;
-        background-color: blue;
-        color: white;
-        font-size: 50px;
-        display: none;
+  <title>Responsive Page</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
     }
-    @media(max-width: 400px){
-        #box1{
-            display: block;
-        }
+
+    .container {
+      display: flex;
+      padding: 20px;
     }
-    @media(min-width: 401px) and (max-width: 600px){
-        #box2{
-            display: block;
-            background-color: green;
-        }
+
+    .box {
+      flex: 1;
+      margin: 10px;
+      padding: 20px;
+      background-color: lightblue;
+      text-align: center;
     }
-    @media(min-width: 601px) and (max-width: 800px){
-        #box3{
-            display: block;
-            background-color: red;
-        }
+
+    /* Media query for screens smaller than 600px (mobiles) */
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column; /* Stack boxes vertically */
+      }
     }
-   </style>
-   
+  </style>
 </head>
 <body>
-    <div class="box" id="box1">WINDOWS</div>
-    <div class="box" id="box2">MAC</div>
-    <div class="box" id="box3">LINUX</div>
-    <div class="box" id="box4">ANDRIOD</div>
-    
+
+  <h2 style="text-align:center;">Responsive Layout Example</h2>
+
+  <div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </div>
+
 </body>
 </html>
