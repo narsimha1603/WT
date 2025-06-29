@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website</title>
+</head>
+<body>
+    <header style="text-align:center">
+        <h1 style="background-color:grey">SNIST WEBSITE</h1>
+        <nav style="background-color:pink">
+            <a href="about.html">About</a>
+            <a href="dept.html">Dept</a>
+            <a href="exams.html">exams</a>
+        </nav>
+    </header>
+    <hr>
+    <div style="background-color:pink;width:100%;height:450px;float:left">
+        <div style="background-color:orange;width:70%;height:450px;float:left">
+            <h1>first div</h1>
+        
+        <section>
+    
+        <h2>results are out</h2>
+        <p>click on link to open</p>
+    </section>
+    <article>
+        <h3>fest is upcoming</h3>
+    </article>
+</div>
+<div style="background-color:lightblue;width:30%;height:450px;float:left">
+    <h1>
+        second div
+    </h1>
+    <aside> syllabus</aside>
+    <aside> timetable</aside>
+</div>
+
+    
+    </div>
+    
+    <footer style="text-align:right">
+        <h4>FOOTER@copyright</h4>
+    </footer>
+</body>
+</html>
