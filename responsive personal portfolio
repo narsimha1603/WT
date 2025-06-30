@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"  content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-  <header class="bg-blue-600 text-white p-6 text-center">
-    <h1 class="text-3xl font-bold">My Portfolio</h1>
-    <p class="text-sm">Web Developer | Designer</p>
+
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header/Profile Section -->
+  <header class="bg-white p-4 text-center">
+    <h1 class="text-3xl font-bold">Your Name</h1>
+    <p class="text-sm text-gray-600">Web Developer</p>
   </header>
 
-  <section class="p-6">
-    <h2 class="text-2xl font-semibold mb-2">Profile</h2>
-    <p>Hello! I'm a passionate web developer with experience in creating modern, responsive websites.</p>
-  </section>
-
-  <section class="p-6 bg-white">
-    <h2 class="text-2xl font-semibold mb-2">Skills</h2>
+  <!-- Skills Section -->
+  <section class="p-4">
+    <h2 class="text-xl font-semibold mb-2">Skills</h2>
     <ul class="list-disc list-inside">
-      <li>HTML5</li>
-      <li>CSS3 / Tailwind CSS</li>
+      <li>HTML</li>
+      <li>CSS</li>
       <li>JavaScript</li>
-      <li>React</li>
+      <li>Tailwind CSS</li>
     </ul>
   </section>
 
-  <section class="p-6">
-    <h2 class="text-2xl font-semibold mb-2">Experience</h2>
-    <p><strong>Web Developer Intern</strong> - XYZ Company (2023)</p>
-    <p>Developed and maintained responsive websites using modern web technologies.</p>
+  <!-- Projects Section -->
+  <section class="p-4 bg-white">
+    <h2 class="text-xl font-semibold mb-2">Projects</h2>
+    <div>
+      <h3 class="font-bold">Project Name</h3>
+      <p>Brief description of the project.</p>
+    </div>
   </section>
 
-  <section class="p-6 bg-white">
-    <h2 class="text-2xl font-semibold mb-2">Projects</h2>
-    <ul class="list-disc list-inside">
-      <li>Portfolio Website</li>
-      <li>To-Do App</li>
-      <li>Weather App using API</li>
-    </ul>
+  <!-- Contact Section -->
+  <section class="p-4">
+    <h2 class="text-xl font-semibold mb-2">Contact</h2>
+    <p>Email: yourname@example.com</p>
   </section>
 
-  <section class="p-6">
-    <h2 class="text-2xl font-semibold mb-2">Contact</h2>
-    <p>Email: myemail@example.com</
+  <footer class="text-center p-2 bg-white">
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+</body>
+</html>
